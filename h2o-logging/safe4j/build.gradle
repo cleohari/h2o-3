@@ -9,5 +9,5 @@ repositories {
 dependencies {
     compileOnly project(":h2o-logging-impl-log4j2")
 
-    testImplementation group: 'junit', name: 'junit', version: '4.12'
+    testImplementation group: 'junit', name: 'junit', version: '4.13.1'
 }

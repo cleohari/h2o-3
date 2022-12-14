@@ -6,7 +6,7 @@ dependencies {
     api "org.eclipse.jetty:jetty-servlets:${jetty8version}"
     api "org.eclipse.jetty:jetty-plus:${jetty8version}"
     api "org.eclipse.jetty:jetty-websocket:${jetty8version}"
-    testImplementation group: "junit", name: "junit", version: "4.12"
+    testImplementation group: "junit", name: "junit", version: "4.13.1"
     testImplementation "org.mockito:mockito-core:2.23.0"
 }
 
