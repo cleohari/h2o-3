@@ -21,7 +21,7 @@ dependencies {
     api 'com.squareup.retrofit2:retrofit:2.8.1'
     api 'com.squareup.retrofit2:converter-gson:2.8.1'
     api 'com.squareup.okhttp3:okhttp:4.6.0'
-    api 'com.squareup.okio:okio:2.6.0'
+    api 'com.squareup.okio:okio:2.7.0'
 
     testImplementation project(":h2o-app")
     testImplementation project(":h2o-web")
