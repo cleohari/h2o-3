@@ -16,7 +16,7 @@ dependencies {
   api("org.apache.hive:hive-exec:1.1.0-cdh5.10.0") {
     transitive = false
   }
-  api("org.apache.hive:hive-metastore:1.1.0-cdh5.10.0") {
+  api("org.apache.hive:hive-metastore:1.1.1") {
     transitive = false
   }
   api(project(':h2o-persist-hdfs')) {
