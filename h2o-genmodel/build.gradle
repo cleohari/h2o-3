@@ -33,7 +33,7 @@ dependencies {
   // dependencies that are shared with h2o-core - always use the same version as h2o-core
   api "com.google.code.gson:gson:${gsonVersion}"
   // test only
-  testImplementation "com.google.guava:guava:16.0.1"
+  testImplementation "com.google.guava:guava:30.0-android"
   testImplementation 'org.mockito:mockito-core:2.18.3'
   testImplementation "junit:junit:${junitVersion}"
 }

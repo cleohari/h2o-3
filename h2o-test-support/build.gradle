@@ -4,7 +4,7 @@ dependencies {
   api project(':h2o-core')
   
   api "junit:junit:${junitVersion}"
-  api "com.google.guava:guava:16.0.1"
+  api "com.google.guava:guava:30.0-android"
   api "org.apache.httpcomponents:httpclient:${httpClientVersion}"
   api "org.hamcrest:hamcrest-junit:2.0.0.0"
   api "org.mockito:mockito-core:2.18.0"
