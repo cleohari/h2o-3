@@ -11,7 +11,7 @@ configurations {
 
 dependencies {
     api project(":h2o-k8s")
-    compileOnly group: 'ai.h2o', name: 'h2o-app', version: '3.22.0.3'
+    compileOnly group: 'ai.h2o', name: 'h2o-app', version: '3.28.0.2'
 
     testImplementation group: 'junit', name: 'junit', version: '4.12'
     testImplementation project(":h2o-test-support")
