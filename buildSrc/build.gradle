@@ -8,5 +8,5 @@ repositories {
 dependencies {
     api 'io.minio:minio:3.0.3'
     // Upgrade http client since the old version was colliding with other plugins
-    api 'org.apache.httpcomponents:httpclient:4.5.2'
+    api 'org.apache.httpcomponents:httpclient:4.5.3'
 }
