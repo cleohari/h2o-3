@@ -7,7 +7,7 @@ dependencies {
     api project(":h2o-algos")
 
     testImplementation project(":h2o-test-support")
-    testImplementation 'org.testng:testng:6.8'
+    testImplementation 'org.testng:testng:6.8.1'
     testRuntimeOnly project(":${defaultWebserverModule}")
 }
 
